@@ -11,7 +11,7 @@ public class App
     public static void main(String[] args) {
         String url = "jdbc:sqlserver://localhost:1433;database=Northwind;encrypt=true;trustServerCertificate=true;";
         String user = "sa";
-        String password = "JessiBear1995*"; //password here
+        String password = ""; //password here
         try {
             DriverManager.registerDriver(new SQLServerDriver());
             Connection connection = DriverManager.getConnection(url,user,password);
